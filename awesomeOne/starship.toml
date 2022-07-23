@@ -1,0 +1,10 @@
+format = "$all$directory$character"
+
+add_newline = false
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = "[∫](bold yellow)"
+error_symbol = "[∫](bold red)"
