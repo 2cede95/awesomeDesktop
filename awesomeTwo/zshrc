@@ -1,0 +1,28 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=2000
+unsetopt beep
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/ben/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+#starship prompt
+eval "$(starship init zsh)"
+
+#aliases
+alias s="startx"
+alias upgrade="sudo pacman -Syu"
+alias get="sudo pacman -S"
+alias search="pacman -Ss"
+alias remove="sudo pacman -R"
+alias weather="curl wttr.in/inverness"
+
+# source plugins
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

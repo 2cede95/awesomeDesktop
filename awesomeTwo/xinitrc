@@ -1,0 +1,5 @@
+setxkbmap gb &
+redshift &
+$HOME/.fehbg &
+picom --experimental-backends &
+exec dbus-launch awesome
