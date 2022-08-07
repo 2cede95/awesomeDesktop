@@ -1,0 +1,8 @@
+[Default Applications]
+text/plain=helix.desktop
+image/jpeg=feh.desktop
+inode/directory=nemo.desktop
+
+[Added Associations]
+text/plain=nvim.desktop;helix.desktop;
+image/jpeg=feh.desktop;
